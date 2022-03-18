@@ -16,6 +16,12 @@
   letter-spacing: -0.02em;
   border-radius: 6px;
 }
+.twitter-head-link {
+  text-transform: none;
+}
+.gh-about-image {
+  margin-bottom: 1.6rem;
+}
 
 .tag-template .gh-main,
 .author-template .gh-main {
@@ -28,6 +34,9 @@
   font-weight: 500;
   text-transform: uppercase;
   letter-spacing: 0.01em;
+}
+.gh-head-actions a {
+  color: var(--ghost-accent-color);
 }
 
 .gh-head-btn {
@@ -202,10 +211,6 @@
 
 .gh-signup-btn {
   margin-top: 1.6rem;
-}
-
-.gh-about-image {
-  margin-bottom: 1.6rem;
 }
 
 .gh-featured .gh-card + .gh-card {
